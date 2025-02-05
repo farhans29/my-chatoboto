@@ -1,0 +1,5 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=${HOME}/public_html/ai-chatbot
+    - /bin/cp -R build/* $DEPLOYPATH/
