@@ -1,5 +1,6 @@
 ---
 deployment:
   tasks:
-    - export DEPLOYPATH=${HOME}/public_html/ai-chatbot.quilora.my.id
+    - export DEPLOYPATH=${HOME}/ai-chatbot.quilora.my.id
+    # - export DEPLOYPATH=${HOME}/public_html/ai-chatbot.quilora.my.id
     - /bin/cp -R build/* $DEPLOYPATH/
