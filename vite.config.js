@@ -11,7 +11,7 @@ export default defineConfig({
   server: {
     proxy: {
       '/api': {
-        target: 'https://mygpt.monogatari.my.id',
+        target: 'https://newgpt.monogatari.my.id',
         changeOrigin: true,
         rewrite: (path) => path.replace(/^\/api/, ''),
       },
